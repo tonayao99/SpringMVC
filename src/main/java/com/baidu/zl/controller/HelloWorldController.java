@@ -33,4 +33,9 @@ public class HelloWorldController {
         System.out.println("in");
         return "ssss";
     }
+
+    @RequestMapping("/testUrl")
+    public void testUrl(String key) {
+        System.out.println(key);
+    }
 }
